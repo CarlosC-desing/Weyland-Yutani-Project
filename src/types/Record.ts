@@ -1,0 +1,23 @@
+export type SpeciesType =
+  | "Xenomorph"
+  | "Yautja"
+  | "Engineer"
+  | "Human"
+  | "Synthetic"
+  | "Hybrid";
+
+export interface Record {
+  id: string;
+  name: string;
+  species: SpeciesType;
+  affiliation: string;
+  origin: string;
+  status: "Alive" | "Deceased" | "Destroyed" | "Unknown";
+  description: string;
+  dangerLevel: number;
+  imageUrl: string;
+  metadata?: {
+    modelNumber?: string;
+    firstAppearance: string;
+  };
+}
