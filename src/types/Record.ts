@@ -21,3 +21,12 @@ export interface Record {
     firstAppearance: string;
   };
 }
+
+export interface MovieRecord {
+  id: number;
+  title: string;
+  year: string;
+  plot: string;
+  category: "Predator" | "AvP" | "Alien";
+  image: string;
+}

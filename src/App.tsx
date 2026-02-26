@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Title } from "./components/Presentacion";
+import { Cronologias } from "./components/Cronologia";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,7 +26,7 @@ function App() {
     return (
       <div className="flex h-screen w-full items-center justify-center bg-black overflow-hidden">
         <video
-          src="/Loading.mp4"
+          src="/videos/Loading.mp4"
           autoPlay
           muted
           loop
@@ -50,13 +51,10 @@ function App() {
           <div className="content-all flex flex-col items-center">
             <Routes>
               <Route path="/" element={<Title />} />
-              <Route
-                path="/Cronologia"
-                element={<h1 className="text-7xl">Cronologias</h1>}
-              />
+              <Route path="/Cronologia" element={<Cronologias />} />
               <Route
                 path="/Personajes"
-                element={<h1 className="text-7xl">Personajes</h1>}
+                element={<h1 className="text-5xl">PERSONAJES</h1>}
               />
             </Routes>
           </div>
