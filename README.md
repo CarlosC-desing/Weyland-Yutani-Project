@@ -1,48 +1,64 @@
+📂 **[CLASSIFIED] — WEYLAND‑YUTANI CENTRAL DATABASE**
+
+> "BUILDING BETTER WORLDS"
+
+---
+
+🔒 **PRIORITY ONE:** _All other priorities rescinded._
+
+Este repositorio contiene la interfaz de acceso a los archivos clasificados de la corporación **Weyland‑Yutani**, centrada en el monitoreo de especímenes y cronologías del universo _Alien vs. Predator_.
+
+---
+
+## 🖥️ System Overview
+
+Proyecto SPA (Single Page Application) de alto rendimiento diseñado para la gestión de datos biológicos y eventos históricos intergalácticos.
+
+---
+
+## 🛠️ Tech Stack (Core Modules)
+
+| Módulo              | Descripción                                          |
+| ------------------- | ---------------------------------------------------- |
+| **React 19**        | Arquitectura de componentes de última generación.    |
+| **Tailwind CSS v4** | Motor CSS‑first para un estilizado ultra‑rápido.     |
+| **Vite**            | Herramienta de construcción y servidor optimizado.   |
+| **React Router v7** | Navegación dinámica entre archivos y bases de datos. |
+| **AOS**             | Animate On Scroll – animaciones para visualización.  |
+
+---
+
+## 🚀 Instalación del Sistema
+
+_Solo usuarios autorizados (nivel 4) deben seguir estos pasos._
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/weyland-yutani.git
+
+cd weyland-yutani
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
 ```
-=================================================================
-  Weyland-Yutani Central Database
-  "BUILDING BETTER WORLDS"
-=================================================================
 
-[ACCESS LEVEL: AUTHORIZED PERSONNEL ONLY]
+---
 
-$ echo "PRIORITY ONE: All other priorities rescinded."
-PRIORITY ONE: All other priorities rescinded.
+## 🌐 Despliegue (Deployment)
 
-$ cat /etc/system_overview
+El sistema se encuentra desplegado y operativo de forma continua a través de la red de **Vercel**. Cada actualización del repositorio se sincroniza automáticamente con el servidor principal.
 
-🖥️ System Overview
-Este proyecto es una Single Page Application (SPA) de alto rendimiento diseñada para la gestión de datos biológicos y eventos históricos intergalácticos.
+---
 
-$ cat /etc/tech_stack
+## 👤 Registro del Desarrollador
 
-🛠️ Tech Stack (Core Modules)
- - React 19: Arquitectura de componentes de última generación.
- - Tailwind CSS v4: Motor CSS‑first para un estilizado ultra‑rápido.
- - Vite: Herramienta de construcción y servidor de desarrollo optimizado.
- - React Router v7: Navegación dinámica entre archivos y bases de datos.
- - AOS (Animate On Scroll): Protocolos de animación para visualización de datos.
+- **Identidad:** Carlos
+- **Especialidad:** Desarrollo Frontend (React, Tailwind)
+- **Misión:** Digitalizar y automatizar los archivos de la corporación.
 
-$ # Instalación del Sistema
-$ git clone https://github.com/tu-usuario/weyland-yutani.git
-Cloning into 'weyland-yutani'...
-... (output truncated)
+---
 
-$ cd weyland-yutani
-$ npm install
-... (dependencias instaladas)
-
-$ npm run dev
-> local development server started at http://localhost:5173
-
-🌐 Despliegue (Deployment)
-El sistema se encuentra desplegado y operativo de forma continua a través de la red de Vercel. Cada actualización del repositorio se sincroniza automáticamente con el servidor principal.
-
-$ whoami
-👤 Registro del Desarrollador
-Identidad: Carlos
-Especialidad: Desarrollo Frontend (React, Tailwind)
-Misión: Digitalizar y automatizar los archivos de la corporación.
-
-Weyland-Yutani Corp © 2026. All rights reserved.
-```
+_Weyland‑Yutani Corp © 2026. All rights reserved._
