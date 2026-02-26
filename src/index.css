@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-fauna: "Fauna", sans-serif;
+  --font-fauna-one: "Fauna-one", sans-serif;
+}
+
 @font-face {
   font-family: "Fauna";
   src: url("./assets/fonts/fauna-thin.ttf") format("truetype");
