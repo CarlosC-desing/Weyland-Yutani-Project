@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+=================================================================
+  Weyland-Yutani Central Database
+  "BUILDING BETTER WORLDS"
+=================================================================
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+[ACCESS LEVEL: AUTHORIZED PERSONNEL ONLY]
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+$ echo "PRIORITY ONE: All other priorities rescinded."
+PRIORITY ONE: All other priorities rescinded.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+$ cat /etc/system_overview
+
+🖥️ System Overview
+Este proyecto es una Single Page Application (SPA) de alto rendimiento diseñada para la gestión de datos biológicos y eventos históricos intergalácticos.
+
+$ cat /etc/tech_stack
+
+🛠️ Tech Stack (Core Modules)
+ - React 19: Arquitectura de componentes de última generación.
+ - Tailwind CSS v4: Motor CSS‑first para un estilizado ultra‑rápido.
+ - Vite: Herramienta de construcción y servidor de desarrollo optimizado.
+ - React Router v7: Navegación dinámica entre archivos y bases de datos.
+ - AOS (Animate On Scroll): Protocolos de animación para visualización de datos.
+
+$ # Instalación del Sistema
+$ git clone https://github.com/tu-usuario/weyland-yutani.git
+Cloning into 'weyland-yutani'...
+... (output truncated)
+
+$ cd weyland-yutani
+$ npm install
+... (dependencias instaladas)
+
+$ npm run dev
+> local development server started at http://localhost:5173
+
+🌐 Despliegue (Deployment)
+El sistema se encuentra desplegado y operativo de forma continua a través de la red de Vercel. Cada actualización del repositorio se sincroniza automáticamente con el servidor principal.
+
+$ whoami
+👤 Registro del Desarrollador
+Identidad: Carlos
+Especialidad: Desarrollo Frontend (React, Tailwind)
+Misión: Digitalizar y automatizar los archivos de la corporación.
+
+Weyland-Yutani Corp © 2026. All rights reserved.
 ```
