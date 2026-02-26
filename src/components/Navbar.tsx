@@ -7,20 +7,11 @@ export const Navbar = () => {
       <div className="flex justify-between items-center px-4">
         <div>
           <Link to="/">
-            {/* El logo ahora cambiará de verde a lima al hacer hover */}
             <LogoWY className="w-30 h-auto transition-colors duration-300 hover:text-lime-400 cursor-pointer" />
           </Link>
         </div>
         <div>
-          <ul className="flex gap-12 font-mono text-sm tracking-widest uppercase">
-            <li>
-              <Link
-                to="/Inicio"
-                className="transition-all duration-300 hover:border-b-2 hover:border-lime-400 pb-1 hover:text-lime-400"
-              >
-                Inicio
-              </Link>
-            </li>
+          <ul className="flex gap-12 text-sm tracking-widest uppercase">
             <li>
               <Link
                 to="/Cronologia"

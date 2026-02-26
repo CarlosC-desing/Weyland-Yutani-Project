@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Fauna";
+  src: url("./assets/fonts/fauna-thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fauna-one";
+  src: url("./assets/fonts/FaunaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
