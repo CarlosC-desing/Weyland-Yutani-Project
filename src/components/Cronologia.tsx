@@ -8,7 +8,16 @@ export const Cronologias = () => {
   const [activeYear, setActiveYear] = useState(timelineDatabase[0].year);
 
   useEffect(() => {
-    AOS.init({ duration: 800, once: false });
+    // Inicialización con configuración de refresco
+    AOS.init({
+      duration: 800,
+      once: false,
+      mirror: true,
+    });
+
+    const timer = setTimeout(() => {
+      AOS.refresh();
+    }, 100);
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -25,7 +34,10 @@ export const Cronologias = () => {
     const cards = document.querySelectorAll(".timeline-card");
     cards.forEach((card) => observer.observe(card));
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      clearTimeout(timer);
+    };
   }, []);
 
   return (
