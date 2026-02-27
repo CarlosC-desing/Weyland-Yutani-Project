@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import { timelineDatabase } from "../data/timeline";
 import { CronologiaCard } from "./CronologiaCards";
 
@@ -8,14 +7,7 @@ export const Cronologias = () => {
   const [activeYear, setActiveYear] = useState(timelineDatabase[0].year);
 
   useEffect(() => {
-    // Inicialización con configuración de refresco
-    AOS.init({
-      duration: 800,
-      once: false,
-      mirror: true,
-    });
-
-    const timer = setTimeout(() => {
+    const refreshAOS = setTimeout(() => {
       AOS.refresh();
     }, 100);
 
@@ -36,7 +28,7 @@ export const Cronologias = () => {
 
     return () => {
       observer.disconnect();
-      clearTimeout(timer);
+      clearTimeout(refreshAOS);
     };
   }, []);
 
@@ -71,6 +63,7 @@ export const Cronologias = () => {
               className="timeline-card w-full"
               data-year={movie.year}
               data-aos="fade-right"
+              data-aos-anchor-placement="top-bottom"
               onMouseEnter={() => setActiveYear(movie.year)}
             >
               <CronologiaCard timeline={movie} />
