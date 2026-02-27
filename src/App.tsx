@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
     AOS.init({
@@ -15,17 +16,26 @@ function App() {
       once: true,
     });
 
-    const timer = setTimeout(() => {
+    const fadeTimer = setTimeout(() => {
+      setFadeOut(true);
+    }, 3500);
+
+    const loadTimer = setTimeout(() => {
       setLoading(false);
     }, 4000);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(fadeTimer);
+      clearTimeout(loadTimer);
+    };
   }, []);
 
   return (
     <BrowserRouter>
       {loading && (
-        <div className="fixed inset-0 z-50 flex h-screen w-full items-center justify-center bg-black overflow-hidden pointer-events-none">
+        <div
+          className={`fixed inset-0 z-50 flex h-screen w-full items-center justify-center bg-black overflow-hidden pointer-events-none transition-opacity duration-500 ${fadeOut ? "opacity-0" : "opacity-100"}`}
+        >
           <video
             src="/videos/Loading.mp4"
             autoPlay
