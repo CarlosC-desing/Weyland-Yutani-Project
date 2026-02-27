@@ -7,7 +7,7 @@ interface Props {
 export const CronologiaCard = ({ timeline }: Props) => {
   return (
     <div className="group relative w-full bg-black border-l-4 border-green-900 hover:border-lime-400 transition-all duration-500 overflow-hidden mb-10 shadow-2xl shadow-green-900/10">
-      <div className="absolute inset-0 opacity-10 pointer-events-none bg-[linear-gradient(rgba(18,52,18,0.2)_1px,transparent_1px),linear-gradient(90deg,rgba(18,52,18,0.2)_1px,transparent_1px)] bg-[size:20px_20px]" />
+      <div className="absolute inset-0 opacity-10 pointer-events-none bg-[linear-gradient(rgba(18,52,18,0.2)_1px,transparent_1px),linear-gradient(90deg,rgba(18,52,18,0.2)_1px,transparent_1px)] bg-size-[20px_20px]" />
 
       <div className="relative flex flex-col md:flex-row gap-0">
         <div className="relative w-full md:w-64 lg:w-72 shrink-0 aspect-video md:aspect-auto overflow-hidden">
@@ -16,16 +16,16 @@ export const CronologiaCard = ({ timeline }: Props) => {
             src={timeline.image}
             alt={timeline.title}
           />
-          <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[size:100%_4px,3px_100%]" />
+          <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-size-[100%_4px,3px_100%]" />
 
           <div className="absolute top-4 left-4 bg-black/80 border border-green-900 px-3 py-1 text-[10px] font-mono text-lime-500 tracking-[0.3em] uppercase">
             {timeline.category}
           </div>
         </div>
 
-        <div className="flex-1 p-6 md:p-8 flex flex-col justify-center bg-gradient-to-r from-black to-green-950/10">
+        <div className="flex-1 p-6 md:p-8 flex flex-col justify-center bg-linear-to-r from-black to-green-950/10">
           <div className="flex items-center gap-4 mb-3">
-            <span className="h-[1px] w-8 bg-green-900 group-hover:w-12 group-hover:bg-lime-400 transition-all" />
+            <span className="h-px] w-8 bg-green-900 group-hover:w-12 group-hover:bg-lime-400 transition-all" />
             <span className="font-mono text-xs text-green-700 tracking-tighter uppercase">
               Record ID: #00{timeline.id} // SEC: {timeline.year}
             </span>

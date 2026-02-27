@@ -35,13 +35,13 @@ export const Cronologias = () => {
           <span className="text-[10px] font-mono text-green-900 uppercase tracking-widest mb-2">
             Timeline_Point
           </span>
-          <div className="h-20 w-[2px] bg-gradient-to-b from-transparent via-lime-400 to-transparent animate-pulse" />
+          <div className="h-20 w-0.5 bg-linear-to-b from-transparent via-lime-400 to-transparent animate-pulse" />
           <div className="my-4 transform -rotate-90">
             <h2 className="text-4xl font-fauna-one text-lime-400 drop-shadow-[0_0_10px_rgba(163,230,53,0.5)] whitespace-nowrap">
               {activeYear}
             </h2>
           </div>
-          <div className="h-20 w-[2px] bg-gradient-to-b from-transparent via-lime-400 to-transparent animate-pulse" />
+          <div className="h-20 w-0.5 bg-linear-to-b from-transparent via-lime-400 to-transparent animate-pulse" />
         </div>
       </aside>
 
