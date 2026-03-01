@@ -45,8 +45,8 @@ function App() {
             playsInline
             className="w-full h-full object-cover"
           />
-          <div className="absolute bottom-10 text-center">
-            <p className="text-lime-400 font-mono tracking-[0.2em] animate-pulse">
+          <div className="absolute bottom-10 text-center px-4">
+            <p className="text-lime-400 font-mono text-xs md:text-base tracking-[0.2em] animate-pulse">
               ESTABLECIENDO ENLACE... WEYLAND-YUTANI CORP
             </p>
           </div>
@@ -54,21 +54,14 @@ function App() {
       )}
 
       <div className="bg-black" style={{ fontFamily: "'fauna', sans-serif" }}>
-        <div className="nav min-h-screen mx-10 text-white">
+        <div className="nav min-h-screen mx-2 md:mx-10 text-white">
           <Navbar />
 
           <div className="content-all flex flex-col items-center">
             <Routes>
               <Route path="/" element={<Title />} />
               <Route path="/Cronologia" element={<Cronologias />} />
-              <Route
-                path="/Personajes"
-                element={
-                  <h1 className="text-5xl">
-                    <Personajes />
-                  </h1>
-                }
-              />
+              <Route path="/Personajes" element={<Personajes />} />
             </Routes>
           </div>
         </div>

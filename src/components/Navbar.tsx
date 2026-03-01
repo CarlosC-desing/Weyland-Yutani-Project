@@ -3,15 +3,15 @@ import { LogoWY } from "./ui/logo";
 
 export const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-md py-5 text-green-500 border-b border-green-900/30">
-      <div className="flex justify-between items-center px-4">
+    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-md py-4 md:py-5 text-green-500 border-b border-green-900/30">
+      <div className="flex justify-between items-center px-2 md:px-4">
         <div>
           <Link to="/">
-            <LogoWY className="w-30 h-auto transition-colors duration-300 hover:text-lime-400 cursor-pointer" />
+            <LogoWY className="w-20 md:w-30 h-auto transition-colors duration-300 hover:text-lime-400 cursor-pointer" />
           </Link>
         </div>
         <div>
-          <ul className="flex gap-12 text-sm tracking-widest uppercase">
+          <ul className="flex gap-4 md:gap-12 text-[10px] md:text-sm tracking-widest uppercase items-center">
             <li>
               <Link
                 to="/Cronologia"
