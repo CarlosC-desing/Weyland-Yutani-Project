@@ -3,7 +3,7 @@ import { LogoWY } from "./ui/logo";
 
 export const Navbar = () => {
   return (
-    <nav className="py-5 text-green-500">
+    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-md py-5 text-green-500 border-b border-green-900/30">
       <div className="flex justify-between items-center px-4">
         <div>
           <Link to="/">

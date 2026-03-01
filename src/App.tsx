@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Title } from "./components/Presentacion";
 import { Cronologias } from "./components/Cronologia";
+import { Personajes } from "./components/Personajes";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -62,7 +63,11 @@ function App() {
               <Route path="/Cronologia" element={<Cronologias />} />
               <Route
                 path="/Personajes"
-                element={<h1 className="text-5xl">PERSONAJES</h1>}
+                element={
+                  <h1 className="text-5xl">
+                    <Personajes />
+                  </h1>
+                }
               />
             </Routes>
           </div>

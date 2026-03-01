@@ -6,7 +6,7 @@ export type SpeciesType =
   | "Synthetic"
   | "Hybrid";
 
-export interface Record {
+export interface Character {
   id: string;
   name: string;
   species: SpeciesType;
