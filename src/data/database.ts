@@ -11,7 +11,7 @@ export const archiveData: Character[] = [
     description:
       "Suboficial de vuelo y máxima superviviente. Principal enemiga de la especie Xenomorfa.",
     dangerLevel: 8,
-    imageUrl: "/public/images/characters/ellen_ripley.jpg",
+    imageUrl: "/images/characters/ellen_ripley.jpg",
     metadata: { firstAppearance: "Alien (1979)" },
   },
   {
@@ -24,7 +24,7 @@ export const archiveData: Character[] = [
     description:
       "Sintético con complejo de dios, responsable de experimentar y evolucionar el patógeno negro.",
     dangerLevel: 9,
-    imageUrl: "/public/images/characters/david_8.jpg",
+    imageUrl: "/images/characters/david_8.jpg",
     metadata: { modelNumber: "D8-001", firstAppearance: "Prometheus (2012)" },
   },
   {
@@ -37,7 +37,7 @@ export const archiveData: Character[] = [
     description:
       "Protagonista con habilidades de supervivencia excepcionales frente a cazadores intergalácticos.",
     dangerLevel: 4,
-    imageUrl: "/public/images/characters/thia.jpg",
+    imageUrl: "/images/characters/thia.jpg",
     metadata: { firstAppearance: "Predator: Badlands" },
   },
   {
@@ -50,7 +50,7 @@ export const archiveData: Character[] = [
     description:
       "Casta obrera y asesina letal. Utiliza las sombras y los conductos para cazar.",
     dangerLevel: 9,
-    imageUrl: "/public/images/characters/xeno_drone.webp",
+    imageUrl: "/images/characters/xeno_drone.webp",
     metadata: { firstAppearance: "Alien (1979)" },
   },
   {
@@ -63,7 +63,7 @@ export const archiveData: Character[] = [
     description:
       "Líder gigante de la colmena, altamente inteligente y encargada de poner los huevos.",
     dangerLevel: 10,
-    imageUrl: "/public/images/characters/xeno_queen.jpg",
+    imageUrl: "/images/characters/xeno_queen.jpg",
     metadata: { firstAppearance: "Aliens (1986)" },
   },
   {
@@ -76,7 +76,7 @@ export const archiveData: Character[] = [
     description:
       "Cazador solitario que acechaba en las selvas de Val Verde en busca de trofeos humanos dignos.",
     dangerLevel: 9,
-    imageUrl: "/public/images/characters/jungle_hunter.jpg",
+    imageUrl: "/images/characters/jungle_hunter.jpg",
     metadata: { firstAppearance: "Predator (1987)" },
   },
   {
@@ -89,7 +89,7 @@ export const archiveData: Character[] = [
     description:
       "Mayor del ejército y el primer humano conocido en derrotar a un Yautja usando tácticas de guerrilla.",
     dangerLevel: 8,
-    imageUrl: "/public/images/characters/alan.jpg",
+    imageUrl: "/images/characters/alan.jpg",
     metadata: { firstAppearance: "Predator (1987)" },
   },
   {
@@ -102,7 +102,7 @@ export const archiveData: Character[] = [
     description:
       "Androide leal programado con inhibidores de comportamiento para nunca dañar a un humano.",
     dangerLevel: 2,
-    imageUrl: "/public/images/characters/bishop.jpg",
+    imageUrl: "/images/characters/bishop.jpg",
     metadata: { modelNumber: "341-B", firstAppearance: "Aliens (1986)" },
   },
   {
@@ -115,7 +115,7 @@ export const archiveData: Character[] = [
     description:
       "Miembro de una antigua raza extraterrestre que creó a la humanidad y el letal patógeno negro.",
     dangerLevel: 10,
-    imageUrl: "/public/images/characters/engineer.jpg",
+    imageUrl: "/images/characters/engineer.jpg",
     metadata: { firstAppearance: "Prometheus (2012)" },
   },
   {
@@ -128,7 +128,7 @@ export const archiveData: Character[] = [
     description:
       "Híbrido brutal nacido de un Yautja infectado. Posee mandíbulas características y fuerza descomunal.",
     dangerLevel: 10,
-    imageUrl: "/public/images/characters/predalien.jpg",
+    imageUrl: "/images/characters/predalien.jpg",
     metadata: { firstAppearance: "AVP: Requiem (2007)" },
   },
   {
@@ -141,7 +141,7 @@ export const archiveData: Character[] = [
     description:
       "Feroz guerrera que utilizó su ingenio y conocimiento del terreno para cazar al primer Yautja documentado en la Tierra.",
     dangerLevel: 7,
-    imageUrl: "/public/images/characters/naru.jpg",
+    imageUrl: "/images/characters/naru.jpg",
     metadata: { firstAppearance: "Prey (2022)" },
   },
   {
@@ -154,7 +154,7 @@ export const archiveData: Character[] = [
     description:
       "Cazador primitivo y brutal con tecnología menos avanzada, pero con una agilidad y fuerza físicas devastadoras.",
     dangerLevel: 9,
-    imageUrl: "/public/images/characters/feral_predator.jpg",
+    imageUrl: "/images/characters/feral_predator.jpg",
     metadata: { firstAppearance: "Prey (2022)" },
   },
   {
@@ -167,7 +167,7 @@ export const archiveData: Character[] = [
     description:
       "Hija de Ellen Ripley; ingeniera brillante que sobrevivió al letal incidente de la estación Sevastopol.",
     dangerLevel: 6,
-    imageUrl: "/public/images/characters/amanda_ripley.jpg",
+    imageUrl: "/images/characters/amanda_ripley.jpg",
     metadata: { firstAppearance: "Alien: Isolation (2014)" },
   },
   {
@@ -180,7 +180,7 @@ export const archiveData: Character[] = [
     description:
       "Variante pálida y extremadamente agresiva nacida de la exposición accidental al patógeno negro.",
     dangerLevel: 9,
-    imageUrl: "/public/images/characters/neo.jpg",
+    imageUrl: "/images/characters/neo.jpg",
     metadata: { firstAppearance: "Alien: Covenant (2017)" },
   },
   {
@@ -193,7 +193,7 @@ export const archiveData: Character[] = [
     description:
       "Cazador urbano que utilizó la guerra de pandillas en Los Ángeles de 1997 como su coto de caza personal.",
     dangerLevel: 8,
-    imageUrl: "/public/images/characters/city_hunter.jpg",
+    imageUrl: "/images/characters/city_hunter.jpg",
     metadata: { firstAppearance: "Predator 2 (1990)" },
   },
   {
@@ -206,7 +206,7 @@ export const archiveData: Character[] = [
     description:
       "Sintético modelo avanzado, idéntico a David pero sin su capacidad creativa ni ambición de dios.",
     dangerLevel: 4,
-    imageUrl: "/public/images/characters/walter.jpg",
+    imageUrl: "/images/characters/walter.jpg",
     metadata: {
       modelNumber: "Walter-One",
       firstAppearance: "Alien: Covenant (2017)",
@@ -222,7 +222,7 @@ export const archiveData: Character[] = [
     description:
       "Líder de un clan rival más grande y sádico, conocido por usar sabuesos y cazar a otros Yautjas.",
     dangerLevel: 10,
-    imageUrl: "/public/images/characters/berseker_predator.jpg",
+    imageUrl: "/images/characters/berseker_predator.jpg",
     metadata: { firstAppearance: "Predators (2010)" },
   },
   {
@@ -235,7 +235,7 @@ export const archiveData: Character[] = [
     description:
       "Nacido de un huésped cuadrúpedo. Extremadamente rápido y el primero en no poseer los tubos dorsales característicos.",
     dangerLevel: 8,
-    imageUrl: "/public/images/characters/dog_alien.jpg",
+    imageUrl: "/images/characters/dog_alien.jpg",
     metadata: { firstAppearance: "Alien 3 (1992)" },
   },
   {
@@ -248,7 +248,7 @@ export const archiveData: Character[] = [
     description:
       "Mercenario de operaciones encubiertas que lideró a un grupo de humanos abducidos en un planeta de reserva de caza.",
     dangerLevel: 8,
-    imageUrl: "/public/images/characters/royce.jpg",
+    imageUrl: "/images/characters/royce.jpg",
     metadata: { firstAppearance: "Predators (2010)" },
   },
   {
@@ -261,7 +261,7 @@ export const archiveData: Character[] = [
     description:
       'Veterano "limpiador" enviado a la Tierra para eliminar la infestación Xenomorfa y al letal Predalien.',
     dangerLevel: 10,
-    imageUrl: "/public/images/characters/wolf_predator.jpg",
+    imageUrl: "/images/characters/wolf_predator.jpg",
     metadata: { firstAppearance: "AVP: Requiem (2007)" },
   },
 ];
