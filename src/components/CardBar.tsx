@@ -11,9 +11,9 @@ export const CardBar = ({ personaje }: Props) => {
         <img
           src={personaje.imageUrl}
           alt={personaje.name}
-          className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-500"
+          className="w-full h-full object-cover transition-all duration-500 lg:grayscale lg:brightness-75 group-hover:lg:grayscale-0 group-hover:lg:brightness-100"
         />
-        <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,52,18,0.2)_1px,transparent_1px)] bg-size-[100%_2px] opacity-30" />
+        <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,52,18,0.2)_1px,transparent_1px)] bg-[size:100%_2px] opacity-30" />
       </div>
 
       <div className="flex-1 overflow-hidden">
